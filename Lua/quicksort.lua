@@ -60,8 +60,8 @@ end
 
 -- Main
 print("Enter array to sort")
-str = io.read()
-array = split_string_to_number(str)
+local str = io.read()
+local array = split_string_to_number(str)
 
 io.write("Given array: ")
 print_array(array)
